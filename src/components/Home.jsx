@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export default function Home() {
   return (
-    <div>
-        <h3>This our home Page</h3>
+    <div className="flex items-center justify-center h-screen bg-white">
+      <h3 className="text-2xl font-medium text-gray-700">
+        This is our Home Page 🏠
+      </h3>
     </div>
-  )
+  );
 }
